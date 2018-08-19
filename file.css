@@ -1,0 +1,143 @@
+.main{
+    border:2px solid #000;
+    margin:2px;
+    display:flex;
+    flex-wrap: wrap;                                                             
+}
+.first{
+    background-color:#FAEBD7;
+    border: 2px solid #000;
+    margin: 2px;
+}
+img{
+    width:200px;
+}
+.left{
+    flex:1;
+    background-color: #FAEBD7;
+    border:2px solid;
+    margin:2px;
+}
+.right{
+    flex:3;
+    background-color: #FAE4C4;
+    border: 2px solid #000;
+    margin: 2px;
+}
+#c{
+    color:green;
+    font-size: 20px;
+    font-style: italic;
+}
+#d{
+    color:blue;
+    font-size: 30px;
+    font-style: italic;
+}
+table,td,tr{
+    border: 2px solid #000;
+    border-collapse: collapse;
+
+}
+/* media queries(1024,1280,768,480)
+1280px-1025px:Desktop&laptops
+1024px-768px:tablet(Landscape) or lptops
+768px-481px :tablet or mobile landscape
+480px:mobile landscape or smaller device
+*/
+@media only screen and (max-width: 480px){
+.main{
+    margin:2px;
+    display:flex;
+    /*flex-wrap:wrap; */
+    flex-direction: column;
+    }
+    img{
+        width:100px;
+        border-radius: 20px;
+    }  
+.first{
+    background-color:#FFA500;
+    border: 2px solid #000;
+    margin: 2px;
+    flex-direction: column;
+}
+.left{
+    flex:1;
+    background-color: #FFA500;
+    margin:2px;
+}
+.right{
+    flex:3;
+    background-color: #FFA500;
+    border: 2px solid #000;
+    margin: 2px;
+}   
+
+}
+ @media only screen and (min-width: 320px) and (max-width:480px){
+
+.main{
+    border:2px solid #000;
+    margin:2px;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;                                                            
+}
+.first{
+    background-color:#FAEBD7;
+    border: 2px solid #000;
+    margin: 2px;
+    flex-direction: column;
+}
+.left{
+    flex:1;
+    background-color: #FAEBD7;
+    margin:2px;
+}
+.right{
+    flex:3;
+    background-color: #FAEBD7;
+    border: 2px solid #000;
+    margin: 2px;
+    }
+}
+ @media only screen and (min-width: 481px) and (max-width:780px){
+.main{
+    border:2px solid #000;
+    margin:2px;
+    border-collapse: collapse;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+                                                            
+}
+.first{
+    background-color:#FAEBD7;
+    border: 2px solid #000;
+    margin: 2px;
+    flex-direction: column;
+}
+.left{
+    flex:1;
+    background-color: #FAEBD7;
+    margin:2px;
+}
+.right{
+    flex:3;
+    background-color: #FFA500;
+    border: 2px solid #000;
+    margin: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

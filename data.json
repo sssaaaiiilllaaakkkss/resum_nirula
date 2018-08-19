@@ -1,0 +1,50 @@
+{
+	"basicdetails":{
+		"image":"images.jpg",
+		"name":"ch.sai",
+		"email":"chsai@apssdc",
+		"phone":"9898989898",
+		"address":"4-34,krishna(district)"
+	},
+	"education":[
+		{
+			"course":"B.Tech(C.S.E)",
+			"college":"vignan nirula",
+			"percentage":"70%"
+		},
+		{
+		"course":"Intermediate(M.P.C)",
+			"college":"sri chaithanya",
+			"percentage":"70%"
+		},
+		{
+		"course":"SSC",
+			"college":"sri chaithanya",
+			"percentage":"75%"
+		}
+	],
+	"skills":[
+		{
+			"name":"operating systems",
+			"value":"Windows,Linux,MEC"
+		},
+		{
+			"name":"Programming Languages",
+			"value":"C,C++,Python"
+		}
+	],
+	"carrier":{
+		"ca":"I am using my knowledge and skills towards the growth of our organization and i obey the organization rules."
+
+	},
+	"acheivements":[
+		"I got first prize in chess compitation in my college",
+		"I got second prize in tech summit.",
+		"I got first prize in power point presentation",
+		"I got first prize in dance compitation"
+	],
+	"description":{
+		"des":"all mentioned above are true"
+	}
+		
+}	
